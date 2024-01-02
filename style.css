@@ -153,6 +153,9 @@ a{
 .hero-msg a{
     color: #007185;
 }
+.hero-msg a:hover{
+    color: red;
+}
 
 /* Shop-section  */
 .shop-section{
@@ -162,13 +165,13 @@ a{
     /* background-color: #e5ebea; */
 }
 .box{
-    height: 330px;
+    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 7px;
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 12px;
+    margin-top: 18px;
 
 }
 .box-img{
@@ -198,7 +201,7 @@ a{
     justify-content: space-evenly;
   }
   .strip-img{
-        padding: 20px;
+        padding: 15px;
   }
   .h2-heading{
     margin-top: 20px;
@@ -282,6 +285,10 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+}
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+    /* color: red; */
 }
 .foot-panel3{
     background-color: #222f3d;
